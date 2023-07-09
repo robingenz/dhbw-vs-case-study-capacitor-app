@@ -11,6 +11,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "@capacitor/android": "^5.1.1",
     "@capacitor/core": "latest",
     "@capacitor/dialog": "latest",
     "@capacitor/splash-screen": "latest"

@@ -1,24 +1,21 @@
 # capacitor-app
 
-⚡️ Capacitor app template without any dependencies.
+## Development
 
-This app was created using [`@capacitor/create-app`](https://github.com/ionic-team/create-capacitor-app), and comes with a very minimal shell for building an app.
-
-Simply add the platform you need via the [Capacitor CLI](https://capacitorjs.com/docs/cli):
+First, install the dependencies:
 
 ```bash
-npm install @capacitor/<platform>
-npx cap add <platform>
+npm install
 ```
 
-After that, you can open the native project workspace and launch the app:
+After that, sync the Capacitor Android platform to ensure everything is up to date:
 
 ```bash
-npx cap open <platform>
+npx cap sync android
 ```
 
-Keep in mind that you need to synchronize the platform once after each change:
+Finally, to open the Android project in Android Studio, run:
 
 ```bash
-npx cap sync
+npx cap open android
 ```
